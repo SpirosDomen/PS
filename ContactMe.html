@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Site</title>
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="icon" href="Images++/SiteFavicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="js/functions.js"></script>
+</head>
+
+<body>
+  <!-- THIS IS THE NAVIGATION BAR -->
+  <div class="NavigationBar" id="MyNavBar">
+    <img src="Images++/HeaderPhoto.png" alt="Header Logo">
+    <a href="index.html" class="active"><i class="fa fa-home" ></i> Home</a>
+    <a href="page2.html">ΔΙΠΑΕ</a>
+    <a href="page3.html">Photo Gallery</a>
+    <a href="page4.html">Programs/Sites</a>
+    <a href="ContactMe.html">Contact Me</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i> </a>
+  </div>
+
+  <div class="Contact-Details">
+    <h1>My Contact Details</h1>
+    <p><strong>Name:</strong> Spyridon Domenikiotis</p>
+    <p><strong>Email:</strong> s_domen@hotmail.com</p>
+    <p id="C-p2"><strong>Address:</strong> ******** str </p>
+  </div>
+
+  <div class="Email">
+    <form action="mailto:s_domen@hotmail.com" method="post" enctype="text/plain">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="E-mail" placeholder="Your E-mail..">
+
+    <label for="subject">Subject:</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+    <input id="submit" type="submit" value="Submit">
+    </form>
+  </div>
+
+  <h4 id="Copyright">© Copyright Spiros Domenikiotis 2020.</h4>
+
+</body>
+
+</html>

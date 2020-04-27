@@ -1,0 +1,540 @@
+/*------------------------------------------------------ General -------------------------------------------------*/
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+}
+
+hr {
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  height: 10px;
+}
+
+/*------------------------------------------------------ Navigation Bar --------------------------------------------*/
+.NavigationBar {
+   background-color: #323232;
+   box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.6);
+   overflow: hidden;
+   padding: 2% 0 2% 2%;
+}
+
+.NavigationBar img {
+  float: right;
+  width: 20%;
+}
+
+.NavigationBar a {
+   float: left;
+   display: block;
+   border-radius: 10px;
+   color: #FFFFFF;
+   text-align: center;
+   padding: 1% 2% 1% 2%;
+   margin-top: 1.5%;
+   text-decoration: none;
+   font-size: 17px;
+}
+
+.NavigationBar a:hover {
+ background-color: #7ebdb4;
+}
+
+.active {
+ background-color: #588989;
+ color: #FFFFFF;
+}
+
+.NavigationBar .icon {
+  display: none;
+}
+
+@media screen and (max-width: 786px) {
+  .NavigationBar img {
+    float: left;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .NavigationBar a:not(:first-child) {display: none;}
+  .NavigationBar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .NavigationBar.responsive {position: relative;}
+  .NavigationBar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 3.75%;
+  }
+  .NavigationBar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+
+/*------------------------------------------------------ Home Page -------------------------------------------------*/
+/*------------------------------------------------------ Body-Text1 ------------------------------------------------*/
+.Body-Text1 {
+  padding-top: 5%;
+  height: 540px;
+}
+
+.Body-Text1 h1 {
+  color: #6eacac;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.Body-Text1 img {
+  float: left;
+  padding: 0 0 0 7.5%;
+  max-width: 25%;
+  height: auto;
+}
+
+.Body-Text1 p {
+  font-size: 1.5vw;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+  padding: 2.5% 7.5% 0 10%;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 600px) {
+  .Body-Text1 {
+    height: 300px;
+  }
+}
+
+/*------------------------------------------------------ Body-Text2 -------------------------------------------------*/
+.Body-Text2 {
+  height: 30%;
+}
+
+.Body-Text2 img {
+  float: right;
+  padding: 2% 15% 0 0;
+  max-width: 15%;
+  height: auto;
+}
+
+.BT2-p {
+  width: 45%;
+}
+
+.BT2-p h1 {
+  color: #6eacac;
+  font-size: 4vw;
+  padding-left: 22%;
+  padding-top: 5%;
+}
+
+.BT2-p p {
+  font-size: 1.8vw;
+  padding-left: 15%;
+}
+
+.BT2-p #Italic-P {
+  font-style: italic;
+  font-size: 1vw;
+  padding-left: 45%;
+}
+
+/*------------------------------------------------------ Footer -------------------------------------------------*/
+.Footer {
+  padding-top: 5%;
+  height: 40%;
+}
+
+.Footer img {
+  padding: 10% 0 0 10%;
+  width: 10%
+}
+
+.Footer-Text {
+  float: right;
+  padding: 5% 10% 0 0;
+  text-align: center;
+}
+
+.Footer-Text h1 {
+  color: #6eacac;
+  font-size: 4vw;
+}
+
+.Footer h4 {
+  margin-top: 20%;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.Footer-Text p {
+  font-size: 1.8vw;
+}
+
+@media screen and (max-width: 600px) {
+  .Footer img {
+    width: 7.5%
+  }
+}
+
+/*------------------------------------------------------ DIPAE PAGE -------------------------------------------------*/
+.College h1{
+  color: #6eacac;
+  text-align: center;
+  padding: 2% 0 0 0;
+  font-size: 3vw;
+}
+
+.College h2{
+  color: #6eacac;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.College img {
+  float: left;
+  padding: 2% 2% 0 15%;
+  max-width: 15%;
+  height: auto;
+}
+
+.College p {
+  font-size: 1.5vw;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+  padding: 2.5% 12% 5% 15%;
+  text-align: justify;
+}
+
+.Contact-College img {
+  box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.6);
+  float: right;
+  margin: 2.5% 15% 0 0;
+  width: 50%;
+}
+
+.Contact-College ul {
+  padding-bottom: 20%;
+}
+
+.Contact-College li {
+  font-size: 1.25vw;
+  padding: 2% 0 0 2%;
+  width: 45%;
+}
+
+.Contact-College h1{
+  color: #6eacac;
+  display: inline-block;
+  padding: 2% 0 0 4%;
+  text-align: left;
+  font-size: 3vw;
+}
+
+.Contact-College h4 {
+  text-align: center;
+  font-size: 1vw;
+}
+
+.Contact-College a:link {
+  background-color: #6eacac;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  box-shadow: -1px 2px 20px 1px rgba(0, 0, 0, 0.6);
+}
+
+.Contact-College a:visited {
+  background-color: #6eacac;
+  border-radius: 5px;
+  color: #FFFFFF;
+  padding: 1% 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.5vw;
+  box-shadow: -1px 2px 20px 1px rgba(0, 0, 0, 0.6);
+}
+
+.Contact-College a:hover {
+  background-color: #6eacac;
+}
+
+.Contact-College a:active {
+  background-color: #6eacac;
+}
+
+
+/*------------------------------------------------------ PHOTO GALLERY PAGE -------------------------------------------------*/
+.Photo-Gallery {
+  height: 65vw;
+}
+
+.Photo-Gallery h1 {
+  color: #6eacac;
+  font-size: 3vw;
+  padding: 2.5% 0 1.5% 0;
+  text-align: center;
+}
+
+.gallery {
+  box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.6);
+  float: left;
+  margin: 0 0 2.5% 2.5%;
+  width: 30%;
+}
+
+.gallery img {
+  filter: grayscale(90%);
+  width: 100%;
+  height: auto;
+}
+
+.gallery :hover {
+  filter: grayscale(0%);
+  transition: 1s;
+  transform: scale(1.05,1.05);
+}
+
+.desc {
+  font-size: 1.5vw;
+  font-family: 'Just Another Hand', cursive;
+  padding: 1.25%;
+  text-align: center;
+}
+
+#Copyright {
+  font-size: 1vw;
+  padding-top: 2.5%;
+  text-align: center;
+}
+
+/*------------------------------------------------------ PROGRAMS PAGE -------------------------------------------------*/
+.main-title {
+  color: #6eacac;
+  font-size: 3.5vw;
+  padding: 2% 0 2% 0 ;
+  text-align: center;
+}
+
+/*------------------------------------------------------ PROGRAMS ON THE LEFT ------------------------------------------*/
+.Icon-Left a:link {
+  background-color: #7ebdb4;
+  color: white;
+  border-radius: 5px;
+  padding: 2.5% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:  0 0 3% 40% ;
+  font-size: 2vw;
+  box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.Icon-Left a:visited {
+  background-color: #7ebdb4;
+  color: white;
+  border-radius: 5px;
+  padding: 2.5% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:  0 0 3% 40% ;
+  font-size: 2vw;
+  box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.Icon-Left a:hover {
+  background-color: #6eacac;
+}
+.Icon-Left a:active {
+  background-color: #6eacac;
+}
+
+.Icon-Left img {
+  float: left;
+  padding: 0 7.5% 4% 13.5%;
+  max-width: 15%;
+  height: auto;
+}
+
+.Icon-Left h2 {
+  color: #6eacac;
+  font-size: 2vw;
+  padding-right: 35%;
+  text-align: right;
+}
+
+.Icon-Left p {
+  font-size: 1.5vw;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+  padding: 0 10% 2.5% 10%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .Icon-Left {
+    height: 350px;
+  }
+}
+
+/*------------------------------------------------------ PROGRAMS ON THE RIGHT ------------------------------------------*/
+.Icon-Right a:link {
+  background-color: #7ebdb4;
+  color: white;
+  border-radius: 5px;
+  padding: 2.5% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:  0 0 3% 40% ;
+  font-size: 2vw;
+  box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.Icon-Right a:visited {
+  background-color: #7ebdb4;
+  color: white;
+  border-radius: 5px;
+  padding: 2.5% 2.5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin:  0 0 3% 40% ;
+  font-size: 2vw;
+  box-shadow: -1px 2px 15px 5px rgba(0, 0, 0, 0.6);
+}
+
+.Icon-Right a:hover {
+  background-color: #6eacac;
+}
+
+.Icon-Right a:active {
+  background-color: #6eacac;
+}
+
+.Icon-Right img {
+  float: right;
+  padding: 0 13.5% 4% 7.5%;
+  max-width: 15%;
+  height: auto;
+}
+
+.Icon-Right h2 {
+  color: #6eacac;
+  font-size: 2vw;
+  padding-left: 25%;
+  text-align: left;
+}
+
+.Icon-Right p {
+  font-size: 1.5vw;
+  letter-spacing: 0.05em;
+  line-height: 30px;
+  padding: 0 10% 2.5% 10%;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .Icon-Right {
+    height: 650px;
+  }
+}
+
+/*------------------------------------------------------ ContactMe PAGE -----------------------------------------------------*/
+.Contact-Details {
+  padding: 5% 0 30% 5%;
+  width: 40%;
+  display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+  .Contact-Details {
+    padding: 5% 0 60% 5%;
+  }
+}
+
+.Contact-Details h1 {
+  color: #6eacac;
+  font-size: 3vw;
+  padding: 0 0 0 5%;
+}
+
+.Contact-Details p {
+  font-size: 1.5vw;
+  padding: 0 0 0 8%;
+}
+
+#C-p2 {
+  font-size: 1.5vw;
+  padding: 0 0 0 8%;
+}
+
+/*-------------------------------------------------------------------------------------------------*/
+.Email {
+  font-size: 1.5vw;
+  width: 40%;
+  float: right;
+  padding: 10% 15% 0 0;
+}
+
+.Email label {
+  padding: 2%;
+}
+
+.Email #fname,#lname {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.Email #email {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.Email #subject {
+  width: 100%;
+  height: 6vw;
+  padding: 2%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.Email #submit {
+  background-color: #6eacac;
+  color: #FFFFFF;
+  padding: 2% 2% 2% 2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5% 0 10% 0;
+}
+
+.Email #submit :hover {
+  background-color: #6eacac;
+}
